@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: KEVIN LEE
+# DATE: 10/3/2025
+# BRIEF DESCRIPTION: This program asks the user if they want a compliment and responds accordingly.
 
 
 
@@ -15,7 +15,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+# Ask user if they want a compliment
+user_input = input("Would you like a compliment? ")
 
+# Check if input is exactly "yes" (lowercase)
+if user_input == "yes":
+    print("You have wonderful eyes.")
+    print("Thank you for playing.")
+else:
+    # For any other input, just thank them
+    print("Thank you for playing.")
 
 
 
@@ -66,12 +75,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+A number between 1-10 that honestly reflects how challenging you found it
 
 
 
 2. What was the hardest part of this lab?
-
+Mention the case-sensitive requirement, conditional logic, or output formatting as the main challenge
 
 
 
